@@ -1,0 +1,55 @@
+body
+{
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color: #777;
+    background-color: #777;
+    font-size: 18px; 
+    text-align: center;
+    padding: 01%;
+    margin: auto;
+    width: 960px;
+}
+
+header, nav, footer,h1,p
+{
+    background-color:#ebebeb;
+    margin: 8px auto;
+    padding: 3%;
+    text-align: center;
+    color: #777;
+}
+
+section{
+    background-color: #ebebeb;
+    width: 465px;
+    height: 100%;
+    margin: auto;
+    text-align: center;
+    float: left;
+    padding: 6px;
+    
+}
+aside{
+    background-color: #ebebeb;
+    width: 465px;
+    height: 205px;
+    margin: auto;
+    text-align: center;
+    float: right;
+    padding: 6px;
+    
+}
+article{
+    background-color: #777;
+    color: #ebebeb;
+    text-align: center;
+    margin: 5px auto;
+    padding: 4%;
+    height: ;
+    
+}
+.container::after{
+    content: "";
+    display: block;
+    clear: both;
+}
